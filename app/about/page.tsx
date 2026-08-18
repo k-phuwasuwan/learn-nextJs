@@ -1,4 +1,10 @@
 import React from 'react'
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About | Next.js Basic ',
+  description: 'This is the about page of Next.js Basic',
+}
 
 function AboutPage() {
   return (

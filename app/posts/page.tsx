@@ -1,5 +1,10 @@
 import React from 'react'
+import type { Metadata } from 'next';
 
+export const metadata: Metadata = {
+  title: 'Posts | Next.js Basic ',
+  description: 'This is the posts page of Next.js Basic',
+}
 type Post = {
     id: number,
     title: string,

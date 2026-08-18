@@ -1,5 +1,11 @@
 import React from 'react'
 import Counter from '../components/counter' 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Counter | Next.js Basic ',
+  description: 'This is the counter page of Next.js Basic',
+}
 
 function CounterPage() {
   return (

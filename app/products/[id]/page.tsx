@@ -1,4 +1,10 @@
 import React from 'react'
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Products | Next.js Basic ',
+  description: 'This is the products page of Next.js Basic',
+}
 
 type ProductDetailPageProps = {
     params: {

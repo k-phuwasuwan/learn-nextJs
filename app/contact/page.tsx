@@ -1,4 +1,10 @@
 import React from 'react'
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Contact | Next.js Basic ',
+  description: 'This is the contact page of Next.js Basic',
+}
 
 function ContactPage() {
   return (

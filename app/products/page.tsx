@@ -1,5 +1,11 @@
 import React from "react";
 import Link from "next/link";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Products | Next.js Basic ',
+  description: 'This is the products page of Next.js Basic',
+}
 
 type Product = {
   id: number;
@@ -40,7 +46,7 @@ async function ProductsPage() {
               <p className="text-2xl font-bold">{product.price}</p>
               <Link
                 href={`/products/${product.id}`}
-                className="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+                className="mt-4 inline-block bg-black text-white py-2 px-4 rounded"
               >
                 View Details
               </Link>
